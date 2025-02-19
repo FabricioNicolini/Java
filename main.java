@@ -10,7 +10,7 @@ public class main{
         int qI=(int) Math.ceil(VE/VI);
         int q23=(int) Math.ceil(VE*1.23/VI);
 
-        System.out.println("A quantidade de convites a serem vendidos para que o custo do espetáculo seja alcançado é: "+ qI);
-        System.out.println("A quantidade de convites vendidos para obter um lucro de 23% é: "+ q23);
+        System.out.printf("A quantidade de convites = %d\n ", qI);
+        System.out.printf("lucro de 23%: %d", q23);
     }
 }   
