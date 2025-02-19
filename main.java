@@ -11,6 +11,6 @@ public class main{
         int q23=(int) Math.ceil(VE*1.23/VI);
 
         System.out.printf("A quantidade de convites = %d\n ", qI);
-        System.out.printf("lucro de 23%: %d", q23);
+        System.out.printf("lucro de 23%: %d\n", q23);
     }
 }   
