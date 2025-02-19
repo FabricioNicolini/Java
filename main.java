@@ -4,7 +4,7 @@ public class main{
         Scanner sc = new Scanner(System.in);
         System.out.print("Valor dos custos do espetáculo");
         float VE=sc.nextFloat();
-        System.out.print("Valor do ingresso")
+        System.out.print("Valor do ingresso");
         float VI=sc.nextFloat();
 
         int qI=(int) Math.ceil(VE/VI);
