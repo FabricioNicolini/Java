@@ -13,4 +13,5 @@ public class main{
         System.out.println("A quantidade de convites a serem vendidos para que o custo do espetáculo seja alcançado é: "+ qI);
         System.out.println("A quantidade de convites vendidos para obter um lucro de 23% é: "+ q23);
     }
+    
 }   
