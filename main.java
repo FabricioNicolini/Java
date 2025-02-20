@@ -12,5 +12,6 @@ public class main{
 
         System.out.printf("A quantidade de convites = %d\n ", qI);
         System.out.printf("lucro de 23%: %d\n", q23);
+        System.out.print("");
     }
 }   
