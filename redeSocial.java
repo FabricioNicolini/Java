@@ -18,5 +18,6 @@ public class redeSocial{
         float mediaCurtidas = totalCurtidas/pos;
         System.out.println("A média de curtidas é: "+ mediaCurtidas);
         System.out.println("O número de publicações é: "+ pos);
+        sc.close();
     }
 }
