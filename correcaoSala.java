@@ -10,6 +10,7 @@ public class correcaoSala{
         aplicaDesconto(precos, desconto);
         imprime(precos);
 
+        sc.close();
     }
 
     public static void aplicaDesconto(double[] precos, double desconto){
@@ -24,6 +25,8 @@ public class correcaoSala{
         for(int i = 0; i < precos.length; i++){
             System.out.printf("Preco #%d:", (i + 1 ));
             precos[i] = sc.nextDouble();
+
+            sc.close();
         }
         return precos;
     }
