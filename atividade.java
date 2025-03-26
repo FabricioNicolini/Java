@@ -19,7 +19,7 @@ public class atividade {
        double desconto = sc.nextDouble();
 
        System.out.println("Produtos com desconto: ");
-       for (int i = 0; i < precco.length; i++) {
+       for (int i = 0; i < preco.length; i++) {
            double novoPreco = preco[i] - (preco[i] * desconto / 100);
            System.out.println("Produto " + (i + 1) + " com desconto: R$ " + novoPreco);
        }
