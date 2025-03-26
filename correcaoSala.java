@@ -28,7 +28,7 @@ public class correcaoSala{
 
     public static void imprime(double[] vetor){
         for (int i = 0; i < vetor.lenght; i++){
-            System.out.printf("%6.2f", vetor[i]);
+            System.out.printf("%8.2f", vetor[i]);
         }
         System.out.println();
     }
