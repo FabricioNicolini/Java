@@ -83,9 +83,9 @@ public class Main {
         
     }
     public static void calcularMediaCentralizada(int[] vetor) {
-    
+     .
     }
     public static void verificarSoma(int[] vetor, Scanner scanner) {
-      
+      .
     }
 }
