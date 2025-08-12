@@ -1,0 +1,9 @@
+Public class ex3{
+    Public static void main(String[]args){
+        double preco=100;
+        double desc=15/100
+        double precoF=(preco*desc)-preco;
+        System.out.println(precoF)
+
+    }
+}
